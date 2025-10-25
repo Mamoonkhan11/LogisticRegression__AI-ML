@@ -6,7 +6,7 @@ from src.evaluate import evaluate_model
 from src.utils import plot_precision_recall_curve
 
 # 1. Load data
-X_train, X_test, y_train, y_test = load_data(file_path="data/dataset.csv")  # replace with None to use Breast Cancer dataset
+X_train, X_test, y_train, y_test = load_data(file_path="Data/data.csv")
 
 # 2. Train model
 model = train_model(X_train, y_train)
