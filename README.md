@@ -4,7 +4,7 @@
 
 This project demonstrates a complete **binary classification pipeline** using **Logistic Regression**. The pipeline includes **data loading**, **preprocessing**, **model training**, **evaluation**, and **threshold tuning** using precision-recall curves.
 
-The project uses a **Breast Cancer Wisconsin (Diagnostic) Data Set**
+The project uses a Breast Cancer Wisconsin (Diagnostic) Data Set
 ---
 
 ## Folder Structure
