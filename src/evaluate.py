@@ -1,4 +1,5 @@
-# src/evaluate.py
+# evaluation functions for model performance
+
 from sklearn.metrics import confusion_matrix, classification_report, roc_auc_score, roc_curve
 import matplotlib.pyplot as plt
 import seaborn as sns
