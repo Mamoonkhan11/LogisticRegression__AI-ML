@@ -1,0 +1,26 @@
+1. How does logistic regression differ from linear regression?
+Linear regression predicts continuous values, whereas logistic regression predicts probabilities for categorical outcomes (usually binary).
+
+2. What is the sigmoid function?
+A function 
+𝜎(𝑥)=1/(1+𝑒−𝑥)
+σ(x)=1/(1+e−x) that maps any real number to a value between 0 and 1, used to model probabilities in logistic regression.
+
+3. What is precision vs recall?
+Precision: Correct positive predictions ÷ Total predicted positives.
+Recall (Sensitivity): Correct positive predictions ÷ Total actual positives.
+
+4. What is the ROC-AUC curve?
+A plot of True Positive Rate vs False Positive Rate at different thresholds. AUC measures overall model discrimination ability.
+
+5. What is the confusion matrix?
+A table showing True Positives, True Negatives, False Positives, and False Negatives to evaluate classification performance.
+
+6. What happens if classes are imbalanced?
+The model may be biased toward the majority class, leading to poor recall/precision for the minority class. Techniques like resampling or class weighting can help.
+
+7. How do you choose the threshold?
+By analyzing precision-recall tradeoff, ROC curve, or business requirements to balance false positives vs false negatives.
+
+8. Can logistic regression be used for multi-class problems?
+Yes, using one-vs-rest (OvR) or softmax (multinomial) extension to handle multiple classes.
