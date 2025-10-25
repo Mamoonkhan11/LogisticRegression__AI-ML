@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 
 def Load_data(file_path=None):
     if file_path:
-        df = pd.read_csv("../data/data.csv")
+        df = pd.read_csv("../Data/data.csv")
         X = df.drop(['id','diagnosis'], axis=1) 
         y = df['diagnosis'].map({'M':1,'B':0}) 
     else:
