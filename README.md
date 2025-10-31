@@ -67,7 +67,7 @@ Task4_LogisticRegression/
 1. **Clone the repository**
 
 ```bash
-git clonehttps://github.com/Mamoonkhan11/LogisticRegression__AI-ML
+git clone https://github.com/Mamoonkhan11/LogisticRegression__AI-ML
 cd LogisticRegression__AI-ML
 ```
 
